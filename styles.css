@@ -1,0 +1,109 @@
+/* Margens e preenchimento padrão */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('aesthetics.jpg'); 
+    background-size: contain; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+
+/* Estilo para o menu */
+nav ul {
+    list-style-type: none; /* Bolinhas padrão */
+    margin: 0;
+    padding: 0;
+    background-color: #f5c1c8;
+    text-align: center; /* Centraliza horizontalmente a lista */
+}
+
+nav ul li {
+    display: inline-block; 
+    margin: 0 10px; 
+}
+
+nav ul li a {
+    display: inline-block; 
+    padding: 10px 20px; /* Espaço interno do botão */
+    text-decoration: none; 
+    color: white; 
+    background-color: #92d0f3; 
+    border-radius: 25px; /* Bordas arredondadas */
+    border: 2px solid #97c5f7; 
+    font-weight: bold; 
+    transition: background-color 0.3s, border-color 0.3s; 
+}
+
+nav ul li a:hover {/* Cor ao passar o mouse */
+    background-color: white; 
+    color: #024a96; 
+    border-color: #024a96; 
+}
+
+/* Estilo para a área principal */
+main {
+    padding: 30px;
+}
+
+/* Estilo para o rodapé */
+footer {
+    text-align: center;
+    padding: 1px;
+    background-color: #f5c1c8;
+    color: #fff;
+    position: center;
+    bottom: 0;
+    width: 10%;
+}
+/* Estilo para a galeria de imagens */
+.image-gallery {
+    display: flex; 
+    justify-content: center; 
+    gap: 30px; 
+    flex-wrap: wrap; 
+    padding: 30px; 
+}
+
+.image-gallery img {
+    width: 300px;
+    height: auto; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s; 
+}
+
+.image-gallery img:hover {
+    transform: scale(1.2); 
+}
+body {
+    background-image: url('Imagem/aesthetics.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: rgba(245, 193, 200, 0.9);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 10; 
+    
+}
+
+
+
+
+
+
